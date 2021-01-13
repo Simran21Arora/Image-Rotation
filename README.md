@@ -1,6 +1,8 @@
 # Image-Rotation
 PROJECT  - IMAGE ROTATION IN C++ USING OPEN-CV
+
 Open-CV : Open-CV is the huge open-source C++ library for computer vision, machine learning and image processing and now it plays a major role in real-time operation. By using it one can process images and videos to identify objects, faces etc. It has several hundred of inbuilt functions which implement image processing algorithms. Out of those functions mentioned below are few which are used in this project :
+
 •	Mat cv::imread(const String & filename, int flags) : The function imread loads an image from the specified file and returns it. If the image cannot be read the function returns an empty matrix.
 Mat img = imread(path);
 
